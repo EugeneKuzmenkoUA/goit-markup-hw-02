@@ -22,19 +22,11 @@ body {
     letter-spacing: 0.02em;
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 /* Header */
 header {
     background-color: var(--accent);
 }
-.header-nav .link {
+.link-logo {
     color: var(--primary-brand);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -54,21 +46,18 @@ footer {
 .footer-logo {
     color: var(--light);
 }
-.header-list {
-    text-decoration: none;
-}
-.header-nav.list .link {
+.header-nav .link {
     color: var(--dark);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
 }
-.link-menu:hover,
-.link-menu:focus {
+.link:hover,
+.link:focus {
 color: var(--pressed-state);
 }
-.header-contacts a {
+.header-contacts .link {
     color: var(--text);
     font-size: 16px;
     line-height: 1.5;
