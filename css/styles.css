@@ -1,0 +1,123 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --hero-background: #2E2F42;
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: var(--accent);
+}
+.header-nav {}
+.logo {
+    color: var(--primary-brand);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.header-logo {
+    color: var(--dark);
+}
+footer {
+    color: var(--light);
+    background-color: var(--dark);
+}
+.footer-logo {
+    color: var(--light);
+}
+.header-nav .header-link {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.header-link:hover,
+.header-link:focus {
+color: var(--pressed-state);
+}
+/* .header li .link-current {
+    color: var(--primary-brand);
+} */
+.header-contacts a {
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Hero */
+.hero-section {
+    color: var(--white-background);
+    background-color: var(--hero-background);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+/* Buttons */
+.button-primary {
+    color: var(--white-background);
+    background-color: var(--primary-brand);
+}
+.button-primary:hover,
+.button-primary:focus {
+    background-color: var(--pressed-state);
+}
+
+.button-secondary {
+    color: var(--primary-brand);
+    background-color: var(--accent);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--white-background);
+    background-color: var(--pressed-state);
+}
+
+/* Main content */
+.advantages-title,
+.team-name {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.work-title,
+.team-title {
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.team {
+    background-color: var(--light);
+}
