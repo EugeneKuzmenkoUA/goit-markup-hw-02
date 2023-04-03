@@ -16,6 +16,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--text);
+    background-color: var(--white-background);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -41,6 +42,7 @@ header {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .header-logo {
     color: var(--dark);
@@ -83,10 +85,12 @@ color: var(--pressed-state);
 
 /* Buttons */
 .button-primary {
+    font-family: "Roboto", sans-serif;
     color: var(--white-background);
     background-color: var(--primary-brand);
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -95,10 +99,12 @@ color: var(--pressed-state);
     background-color: var(--pressed-state);
 }
 .button-secondary {
+    font-family: "Roboto", sans-serif;
     color: var(--primary-brand);
     background-color: var(--accent);
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -124,6 +130,7 @@ color: var(--pressed-state);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
 }
 .team {
     background-color: var(--light);
