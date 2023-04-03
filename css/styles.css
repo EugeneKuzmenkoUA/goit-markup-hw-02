@@ -94,7 +94,6 @@ color: var(--pressed-state);
 .button-primary:focus {
     background-color: var(--pressed-state);
 }
-
 .button-secondary {
     color: var(--primary-brand);
     background-color: var(--accent);
