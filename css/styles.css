@@ -34,7 +34,6 @@ a {
 header {
     background-color: var(--accent);
 }
-.header-nav {}
 .link {
     color: var(--primary-brand);
     font-family: 'Raleway', sans-serif;
@@ -58,19 +57,16 @@ footer {
 .header-list {
     text-decoration: none;
 }
-.header-nav .header-link {
+.header-nav .link-menu {
     color: var(--dark);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 }
-.header-link:hover,
-.header-link:focus {
+.link-menu:hover,
+.link-menu:focus {
 color: var(--pressed-state);
 }
-/* .header li .link-current {
-    color: var(--primary-brand);
-} */
 .header-contacts a {
     color: var(--text);
     font-size: 16px;
