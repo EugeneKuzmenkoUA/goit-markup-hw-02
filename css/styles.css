@@ -88,6 +88,7 @@ color: var(--pressed-state);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -100,6 +101,7 @@ color: var(--pressed-state);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .button-secondary:hover,
 .button-secondary:focus {
@@ -109,7 +111,8 @@ color: var(--pressed-state);
 
 /* Main content */
 .advantages-title,
-.team-name {
+.team-name,
+.portfolio-title {
     color: var(--dark);
     font-weight: 500;
     font-size: 20px;
@@ -125,10 +128,4 @@ color: var(--pressed-state);
 }
 .team {
     background-color: var(--light);
-}
-.portfolio-title {
-    color: var(--dark);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
 }
